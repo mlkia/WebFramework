@@ -1,0 +1,33 @@
+.bodylightmode {
+	background-color: #ffffff;
+}
+
+.bodydarkmode {
+	background-color: black;
+}
+
+.buttonlightmode {
+	background-color: black;
+	color: #ffffff;
+	margin: 20px;
+}
+
+.buttondarkmode {
+	background-color: #ffffff;
+	color: black;
+	margin: 20px;
+}
+
+.titleDarkmode{
+	color: #ffffff;
+}
+
+section{
+	color: red;
+}
+
+.sectionDark{
+	color: aquamarine;
+}
+
+
