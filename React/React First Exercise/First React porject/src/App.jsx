@@ -1,17 +1,14 @@
-import './App.css'
-import Counter from './components/Counter'
+// import './App.css'
+import DarkMode from './components/DarkMode'
 
-const App = () => (
-  <div>
-		<h1> My counter app </h1>
-		<Counter initial={10} />
-		<Counter initial={20} />
-		<Counter initial={30} />
-		<Counter initial={40} />
-	</div>
-)
+ const App = () => (
+      <body>
+   		<h1> Switch Mode </h1>
+      <DarkMode />
+   	</body>
+ )
 
-export default App
+
 
 
 // function App() {
@@ -36,6 +33,7 @@ export default App
 //             </button>
 //           </p>
 //         </p>
+//         <DarkMode />
 //         <p>
 //           Edit <code>App.jsx</code> and save to test HMR updates.
 //         </p>
@@ -63,4 +61,5 @@ export default App
 //   )
 // }
 
+export default App
 
