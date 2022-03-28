@@ -1,12 +1,21 @@
 // import './App.css'
+import './App.css'
+import Counter from './components/Counter'
 import DarkMode from './components/DarkMode'
+import ShowHide from './components/ShowHide'
 
- const App = () => (
-      <body>
-   		<h1> Switch Mode </h1>
-      <DarkMode />
-   	</body>
- )
+
+const App = () => (
+	<div>
+		<h1> React Apps </h1>
+		<ShowHide />
+		{/* <Counter initial={10} />
+		<Counter initial={20} />
+		<Counter initial={30} />
+		<Counter initial={40} /> */}
+	</div>
+)
+
 
 
 

@@ -6,3 +6,14 @@
 	color: #1E4B7A;
 	background-color: #DEEBF8;
 }
+
+.hidden {
+	/* Ska inte finnas i DOM */
+	/* display: none; */
+
+	/* Finns kvar osynligt, behåller sin plats */
+	visibility: hidden;
+
+	/* Elementet finns kvar, i princip synligt fast helt genomskinligt */
+	/* opacity: 0; */
+}
