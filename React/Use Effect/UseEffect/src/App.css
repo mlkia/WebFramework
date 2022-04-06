@@ -59,5 +59,8 @@ h1{
 }
 
 button {
+  margin: 4px;
+  border-radius: 5px;
+  padding: 10px;
   font-size: calc(10px + 2vmin);
 }
