@@ -1,0 +1,63 @@
+
+
+main{
+  display: grid;
+  grid-template-areas: 
+    "topbar  topbar  topbar"
+    "ads     content sidebar"
+    "footer  footer  footer";
+
+    height: 100vh;
+
+    grid-template-columns: 1fr 3fr 1fr;
+
+    grid-template-rows: 20% auto 20%;
+
+    gap: 5px 5px;
+}
+
+header  {
+  text-align: center;
+  color: antiquewhite;
+  background-color: rgb(7, 9, 50);
+  grid-area: topbar; }
+aside   {
+  text-align: center;
+  padding: 50px 5px 400px;
+  background-color:chartreuse ;
+  grid-area: ads; }
+article {
+  background-color:darksalmon;
+   }
+nav     {
+  text-align: center;
+  background-color:rgb(233, 122, 218);
+  grid-area: sidebar; }
+footer  {
+  text-align: center;
+  background-color: cornflowerblue;
+  grid-area: footer; }
+
+.grid-design{
+  display: grid;
+  grid-template-rows: 1fr 3fr;
+  gap: 5px 5px;
+}
+
+h1{
+  padding: 10px;
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+.App-div{
+  background-color: #61dafb;
+  padding: 25px;
+}
+
+button {
+  font-size: calc(10px + 2vmin);
+}
