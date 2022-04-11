@@ -9,6 +9,7 @@
 	position: relative;
 }
 .form label { display: block; }
+
 .form input {
 	display: block;
 	border-radius: 0.2em;
